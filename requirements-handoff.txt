@@ -1,0 +1,38 @@
+# ============================================================
+# AUTO-001 Y Runnable Handoff — Runtime dependencies
+# Pinned from the W build venv (Python 3.12.4).
+# Install with:  python -m pip install -r requirements-handoff.txt
+# ============================================================
+
+# --- UI / app ---
+streamlit==1.62.0
+
+# --- data / corpus reading ---
+pandas==3.0.5
+openpyxl==3.1.5
+
+# --- config / secrets (placeholder only, no real key) ---
+python-dotenv==1.2.3
+
+# --- LLM client ---
+openai==3.5.0
+
+# --- vector store ---
+qdrant-client==1.19.0
+mmh3==5.3.0
+portalocker==3.2.0
+grpcio==1.83.1
+protobuf==7.36.0
+
+# --- embedding (BAAI/bge-small-zh-v1.5) ---
+fastembed==0.8.0
+numpy==2.5.2
+onnxruntime==1.29.0
+huggingface-hub==1.29.0
+tokenizers==0.23.1
+
+# --- shared runtime deps (pinned for reproducibility) ---
+httpx==0.28.1
+pydantic==2.13.4
+tqdm==4.70.0
+requests==2.34.2

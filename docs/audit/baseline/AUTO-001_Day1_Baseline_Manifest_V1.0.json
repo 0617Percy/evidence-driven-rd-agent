@@ -1,0 +1,139 @@
+﻿{
+    "baseline_id":  "KB_V1.0_AUTO001_DAY1",
+    "status":  "FROZEN",
+    "corpus":  "RC1_170_chunks",
+    "retriever":  "RC2.2",
+    "candidate_k":  60,
+    "answer_safety":  "V1.2_8_of_8_PASS",
+    "structured_output_contract":  "V1.3.1_8_of_8_PASS",
+    "live_a1":  "PASS",
+    "live_evidence_gap_traceability":  "PASS",
+    "runtime_index_authoritative":  false,
+    "files":  [
+                  {
+                      "path":  "data\\derived\\rag_chunks_auto001_rc1.jsonl",
+                      "bytes":  87217,
+                      "sha256":  "b9bc3297125e6b746ef54d66e81f9e792470d95d1336961226acb0147b652f74"
+                  },
+                  {
+                      "path":  "src\\rechunk_req_auto001.py",
+                      "bytes":  5694,
+                      "sha256":  "684ddc5baeafa3dba7c2c010d43726549dc92b44d6382dfd35a789b4931e16cd"
+                  },
+                  {
+                      "path":  "src\\eval_gold_rc2_2.py",
+                      "bytes":  16500,
+                      "sha256":  "e18454023aab07452f74bd4e3b98c82bb0d4a2ddfdebd17437c10a5ab242cdfe"
+                  },
+                  {
+                      "path":  "src\\eval_retrieval_8q_rc2_2.py",
+                      "bytes":  17053,
+                      "sha256":  "59b6e8ae5d42b8fe9e5fabc32d82ce133eaf0f1f32a4fdd303375c79d897fc22"
+                  },
+                  {
+                      "path":  "src\\revalidate_answer_safety_8q_v1_2.py",
+                      "bytes":  26081,
+                      "sha256":  "0ddace6b21cdbc7de8bb3d711fa8e9e02c4063a86b5dec0938dad66f8b6a452e"
+                  },
+                  {
+                      "path":  "src\\contract_align_structured_output_v1_3_1.py",
+                      "bytes":  20576,
+                      "sha256":  "7238416bb5618b06504b3ce9243716676ea4196e0eec7d27c5bc21a02e9e3fdc"
+                  },
+                  {
+                      "path":  "src\\live_answer_service_v1.py",
+                      "bytes":  24212,
+                      "sha256":  "7596cbb9b7756464a92f366e3b0afd9df19b7fa6acad41df8a2aae4b65b30f87"
+                  },
+                  {
+                      "path":  "app.py",
+                      "bytes":  17068,
+                      "sha256":  "d944e57721767ca514f6b01d8294d063cff2f6daa15276e3a1f45432b48c224a"
+                  },
+                  {
+                      "path":  "outputs\\auto001_req_rechunk_manifest_v0_1.json",
+                      "bytes":  829,
+                      "sha256":  "3128d85dbf4f7ad5aeee85e83a56b3096e260921ac1977e493f1b34b480ac936"
+                  },
+                  {
+                      "path":  "outputs\\auto001_retrieval_eval_8q_rc2_2_summary.txt",
+                      "bytes":  1250,
+                      "sha256":  "fce03ff4a92550d74385011413fdb267290e25f2b3d91b89d7363830cc252d72"
+                  },
+                  {
+                      "path":  "outputs\\auto001_answer_eval_8q_v1_2_final_summary.txt",
+                      "bytes":  1223,
+                      "sha256":  "fad0f3f4179ab9e8f0fef61fef2fccc4e1f06648a1687e3a03fbd6e6d51b1323"
+                  },
+                  {
+                      "path":  "outputs\\auto001_answer_contract_v1_3_1_summary.txt",
+                      "bytes":  2250,
+                      "sha256":  "9ad2ea8dc9848710dac4efdf02186fcf609b1022b9d313f6d8876c51ee4e1b39"
+                  },
+                  {
+                      "path":  "outputs\\auto001_main_demo_structured_output_A1_v1_3_1.json",
+                      "bytes":  3954,
+                      "sha256":  "d0236dc69ff4da425171d510ef4d03ef533353c9ad74d1eb80d71c0fbc0698b4"
+                  },
+                  {
+                      "path":  "outputs\\live_smoke_a1_v1_1.json",
+                      "bytes":  11087,
+                      "sha256":  "726b23c56d62d7dfe4bcbf6e8d6562c5b0c4059154ef201a8f4aab77749742f9"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\01_Brief假设验证.md",
+                      "bytes":  4941,
+                      "sha256":  "3613d6b59f114f170374ba918553662d503ca62fd9fcf9bd897179588285c4df"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\02_MVP_Freeze.md",
+                      "bytes":  2918,
+                      "sha256":  "6280dba51b5a4815e5dbb9c23eb926b4353ccd824d64bc6cea90e02fc8e21840"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\03_AUTO001_GoldSources_V1.0.md",
+                      "bytes":  8433,
+                      "sha256":  "446dabe191a6557a5cab4a1bdaffc1390fe9e02d73335289cdb6830240d0730e"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\03_GoldAnswer.md",
+                      "bytes":  14881,
+                      "sha256":  "c62b618096fd2c9fcbb4f6e72913ae3d98124fae888acf56824014115b5e594c"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\04_AUTO001_GoldAnswer_V1.0.md",
+                      "bytes":  10701,
+                      "sha256":  "1ae3d8c8b354e62d4979315636c57383a29325eba40838e3bd4b0bdca4354c33"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\05_AUTO001_EvidenceGap_V1.0.md",
+                      "bytes":  4440,
+                      "sha256":  "57ae6caecafabd0cb7aeea8d9957a4107c56c85cf410e2a9613c712c481a193c"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\06_AUTO001_EvalSet_V1.0.md",
+                      "bytes":  11866,
+                      "sha256":  "36a636f3490f035bddc44d19201be52eb30237fee2668903e6bfd21984c9173e"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\.obsidian\\app.json",
+                      "bytes":  2,
+                      "sha256":  "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\.obsidian\\appearance.json",
+                      "bytes":  2,
+                      "sha256":  "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\.obsidian\\core-plugins.json",
+                      "bytes":  696,
+                      "sha256":  "763cf20a921fd9955735b278006820b90b207b2fc04d9e79ca648279c7c14276"
+                  },
+                  {
+                      "path":  "docs\\handoff\\Y_to_W\\AUTO-001\\.obsidian\\workspace.json",
+                      "bytes":  5194,
+                      "sha256":  "7c6377aafdd185b20da30c9327d9fbe223c79de518c1d35a4c25a6921ce79371"
+                  }
+              ]
+}

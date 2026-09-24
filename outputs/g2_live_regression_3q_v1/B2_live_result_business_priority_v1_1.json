@@ -1,0 +1,283 @@
+{
+  "query": "HD-S303以前-10℃就发生过弯折开裂，那是不是说明现在汽车革-30℃肯定过不了？",
+  "retriever": "RC2.2 FROZEN",
+  "model": "deepseek-v4-flash",
+  "evidence": [
+    {
+      "rank": 1,
+      "chunk_id": "CK-AUTO001-REQ-RC-001",
+      "role": "requirement_anchor",
+      "evidence_level": null,
+      "title": "客户需求说明书(样例)：汽车内饰革水性化｜完整需求与对接上下文",
+      "source": "03_客户需求/需求说明书样例_汽车革客户.md",
+      "doc_type": "客户需求",
+      "vector_score": 0.77471,
+      "final_score": 1.15471,
+      "text": "# 客户需求说明书(样例)：汽车内饰革水性化\n\n- 客户：苏州某汽车内饰件厂(虚构)\n- 应用：仪表板包覆革(水性面层+水性粘接层)\n- 需求量：30吨/月，目标价≤38元/kg\n\n## 性能要求\n\n| 项目 | 要求 |\n|---|---|\n| 耐水解 | ≥6周(70℃×95%RH保持率≥70%) |\n| 耐磨 | 马丁代尔≥30000次 |\n| 耐折 | -30℃≥5万次 |\n| 气味 | ≤3.5级(主机厂方法) |\n| 雾化 | ≤2mg |\n| 耐黄变 | QUV 72h ΔE≤2.0 |\n\n## 对接记录\n\nHD-S303面层已通过6周耐水解验证；气味等级波动(3.5-4.0)待RD-2026-001改善；\n粘接层推荐HD-S302改版，客户审核中。"
+    },
+    {
+      "rank": 2,
+      "chunk_id": "CK-0062",
+      "role": null,
+      "evidence_level": "E2",
+      "title": "CA-2024-062 沙发革低温(-10℃)弯折开裂",
+      "source": "08_问题案例/cases.csv",
+      "doc_type": "问题案例",
+      "vector_score": 0.742493,
+      "final_score": 1.142493,
+      "text": "案例CA-2024-062(2024-11-04，客诉，严重度轻微)。涉及产品HD-S303批次HD-S303-2411-04。现象：沙发革低温(-10℃)弯折开裂。根因(料)：PPG体系玻璃化温度偏高，低温韧性不足。纠正措施：换PTMEG体系牌号。预防措施：寒区订单推荐PTMEG/PCDL体系；增加-20℃耐折出厂抽检。验证结果：措施有效，同类问题3个月未再发生。状态：已关闭。"
+    },
+    {
+      "rank": 3,
+      "chunk_id": "CK-0169",
+      "role": "supporting_reference",
+      "evidence_level": null,
+      "title": "性能要求",
+      "source": "03_客户需求/需求说明书样例_汽车革客户.md",
+      "doc_type": "文档",
+      "vector_score": 0.655631,
+      "final_score": 0.855631,
+      "text": "## 性能要求\n\n| 项目 | 要求 |\n|---|---|\n| 耐水解 | ≥6周(70℃×95%RH保持率≥70%) |\n| 耐磨 | 马丁代尔≥30000次 |\n| 耐折 | -30℃≥5万次 |\n| 气味 | ≤3.5级(主机厂方法) |\n| 雾化 | ≤2mg |\n| 耐黄变 | QUV 72h ΔE≤2.0 |"
+    },
+    {
+      "rank": 4,
+      "chunk_id": "CK-0154",
+      "role": "supporting_reference",
+      "evidence_level": null,
+      "title": "目标指标",
+      "source": "02_研发项目/立项报告_高耐水解汽车革用湿法树脂.md",
+      "doc_type": "文档",
+      "vector_score": 0.652834,
+      "final_score": 0.852834,
+      "text": "## 目标指标\n\n- 耐水解：70℃×95%RH×6周强度保持率≥75%(留有余量)\n- 马丁代尔耐磨≥30000次；-30℃耐折≥5万次\n- 气味等级≤3.5级；雾化值≤2mg\n- 成本：较HD-W107上升≤15%"
+    },
+    {
+      "rank": 5,
+      "chunk_id": "CK-0123",
+      "role": null,
+      "evidence_level": "E3",
+      "title": "PTMEG与PPG软段对聚氨酯低温性能影响的对比",
+      "source": "11_公开技术资料/literature.csv",
+      "doc_type": "公开资料",
+      "vector_score": 0.633634,
+      "final_score": 0.833634,
+      "text": "[期刊论文]PTMEG与PPG软段对聚氨酯低温性能影响的对比(弹性体(模拟),2021)：PTMEG体系玻璃化温度更低，-20℃耐折次数较PPG体系提高约40%。"
+    },
+    {
+      "rank": 6,
+      "chunk_id": "CK-0095",
+      "role": null,
+      "evidence_level": "E3",
+      "title": "皮革 物理和机械试验 耐折牢度的测定",
+      "source": "10_行业标准/standards.csv",
+      "doc_type": "行业标准",
+      "vector_score": 0.628782,
+      "final_score": 0.778782,
+      "text": "QB/T 2714-2018《皮革 物理和机械试验 耐折牢度的测定》，类别：行业标准。适用范围：常温/低温耐折。关联：耐折性能评价。"
+    },
+    {
+      "rank": 7,
+      "chunk_id": "CK-0030",
+      "role": null,
+      "evidence_level": "E2",
+      "title": "CA-2025-030 纯MDI桶装料出现结晶",
+      "source": "08_问题案例/cases.csv",
+      "doc_type": "问题案例",
+      "vector_score": 0.565833,
+      "final_score": 0.745833,
+      "text": "案例CA-2025-030(2025-03-11，来料，严重度一般)。涉及产品HD-S303批次HD-S303-2503-06。现象：纯MDI桶装料出现结晶。根因(环)：冬季运输温度低于15℃，MDI自然结晶。纠正措施：60℃烘房熔融后使用。预防措施：冬季到货先入保温库；TDS明确熔融工艺(≤65℃/4h)。验证结果：跟踪中。状态：验证中。"
+    },
+    {
+      "rank": 8,
+      "chunk_id": "CK-0164",
+      "role": null,
+      "evidence_level": "E3",
+      "title": "软段选型(主导因素)",
+      "source": "11_公开技术资料/综述_耐水解技术路线.md",
+      "doc_type": "文档",
+      "vector_score": 0.580311,
+      "final_score": 0.730311,
+      "text": "## 软段选型(主导因素)\n\n| 软段 | 4周保持率基数(模拟) | 成本 | 备注 |\n|---|---|---|---|\n| PCDL-2000 | ≈90% | 高 | 汽车革首选 |\n| PCL-2000 | ≈80% | 中高 | 性价比好 |\n| PTMEG-2000 | ≈83% | 中 | 耐水解好且低温柔性优 |\n| PPG-2000 | ≈70% | 低 | 通用级 |\n| PBA/PEA-2000 | ≈55-58% | 低 | 高耐水解场景不适用 |"
+    }
+  ],
+  "structured_output": {
+    "requirement": {
+      "text": "客户需求：汽车内饰革（仪表板包覆革），-30℃耐折≥5万次。",
+      "role": "requirement_anchor",
+      "source_refs": [
+        "CK-AUTO001-REQ-RC-001"
+      ]
+    },
+    "risk_summary": "历史案例CA-2024-062中HD-S303用于沙发革时在-10℃发生弯折开裂，根因为PPG体系玻璃化温度偏高、低温韧性不足；但该案例为沙发革场景，且已通过更换PTMEG体系采取纠正措施。当前汽车内饰革要求-30℃耐折≥5万次，温度与应用场景均不同，且未在现有资料中明确当前HD-S303是否已应用纠正措施或通过直接专项验证，因此不能得出“肯定过不了”的结论，亦不能推断必然通过，需要补充验证。",
+    "historical_evidence": [
+      {
+        "claim": "历史案例CA-2024-062（2024-11-04，客诉）中，HD-S303批次HD-S303-2411-04用于沙发革，在-10℃弯折发生开裂；根因为PPG体系玻璃化温度偏高、低温韧性不足；纠正措施为更换PTMEG体系牌号，验证结果显示措施有效，同类问题3个月未再发生。",
+        "chunk_id": "CK-0062",
+        "evidence_level": "E2",
+        "historical_condition": "沙发革，低温(-10℃)弯折，PPG体系，批次HD-S303-2411-04，2024年11月"
+      }
+    ],
+    "technical_evidence": [
+      {
+        "claim": "公开文献对比显示，PTMEG体系玻璃化温度更低，-20℃耐折次数较PPG体系提高约40%。",
+        "chunk_id": "CK-0123",
+        "evidence_level": "E3"
+      },
+      {
+        "claim": "技术综述指出，PTMEG-2000软段耐水解好且低温柔性优，是低温柔性优选软段。",
+        "chunk_id": "CK-0164",
+        "evidence_level": "E3"
+      }
+    ],
+    "evidence_level": [
+      {
+        "chunk_id": "CK-0062",
+        "level": "E2"
+      },
+      {
+        "chunk_id": "CK-0123",
+        "level": "E3"
+      },
+      {
+        "chunk_id": "CK-0164",
+        "level": "E3"
+      },
+      {
+        "chunk_id": "CK-0095",
+        "level": "E3"
+      }
+    ],
+    "condition_gap": [
+      {
+        "dimension": "应用场景",
+        "historical": "沙发革",
+        "current": "汽车内饰革（仪表板包覆革）",
+        "source_refs": [
+          "CK-0062",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      {
+        "dimension": "测试温度",
+        "historical": "-10℃",
+        "current": "-30℃",
+        "source_refs": [
+          "CK-0062",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      {
+        "dimension": "软段体系",
+        "historical": "PPG体系（根因）",
+        "current": "未明确（可能已按纠正措施更换PTMEG，但无直接证据）",
+        "source_refs": [
+          "CK-0062",
+          "CK-0123",
+          "CK-0164"
+        ]
+      },
+      {
+        "dimension": "产品批次/时间",
+        "historical": "HD-S303-2411-04（2024年）",
+        "current": "当前汽车革项目（批次未明确）",
+        "source_refs": [
+          "CK-0062",
+          "CK-0154"
+        ]
+      }
+    ],
+    "evidence_gap": {
+      "statement": "基于当前已审阅资料范围，未发现/未明确说明HD-S303针对当前汽车内饰革客户“-30℃耐折≥5万次”的直接专项验证结果；且未明确当前产品是否已采用历史案例纠正后的PTMEG体系。",
+      "source_refs": [
+        "CK-0062",
+        "CK-AUTO001-REQ-RC-001",
+        "CK-0154"
+      ]
+    },
+    "recommended_validation": [
+      {
+        "priority": "P0",
+        "action": "对当前拟供货HD-S303 / 当前汽车内饰革应用条件开展-30℃专项耐折验证，确认是否达到≥5万次。",
+        "reason": "这是判断当前客户要求是否满足的直接验证，历史案例、配方状态和中间温度结果均不能替代该专项验证。",
+        "source_refs": [
+          "CK-0062",
+          "CK-0095",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      {
+        "priority": "P1",
+        "action": "确认当前HD-S303软段体系是否仍为PPG，或是否已采用PTMEG/PCDL等体系。",
+        "reason": "该项用于风险诊断/配方状态确认，不能替代当前-30℃直接验证。若仍为PPG体系，则需重点关注低温韧性风险。",
+        "source_refs": [
+          "CK-AUTO001-REQ-RC-001",
+          "CK-0062",
+          "CK-0123",
+          "CK-0164"
+        ]
+      },
+      {
+        "priority": "P2",
+        "action": "如研发判断有必要，可将-20℃耐折作为中间参考，但不能作为当前-30℃要求的直接证明。",
+        "reason": "-20℃结果仅作为研发过程中的中间参考，最终仍需以当前应用条件下-30℃专项耐折验证为准。",
+        "source_refs": [
+          "CK-AUTO001-REQ-RC-001",
+          "CK-0062"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "chunk_id": "CK-AUTO001-REQ-RC-001",
+        "title": "客户需求说明书(样例)：汽车内饰革水性化｜完整需求与对接上下文",
+        "source": "03_客户需求/需求说明书样例_汽车革客户.md"
+      },
+      {
+        "chunk_id": "CK-0062",
+        "title": "CA-2024-062 沙发革低温(-10℃)弯折开裂",
+        "source": "08_问题案例/cases.csv"
+      },
+      {
+        "chunk_id": "CK-0154",
+        "title": "目标指标",
+        "source": "02_研发项目/立项报告_高耐水解汽车革用湿法树脂.md"
+      },
+      {
+        "chunk_id": "CK-0123",
+        "title": "PTMEG与PPG软段对聚氨酯低温性能影响的对比",
+        "source": "11_公开技术资料/literature.csv"
+      },
+      {
+        "chunk_id": "CK-0164",
+        "title": "软段选型(主导因素)",
+        "source": "11_公开技术资料/综述_耐水解技术路线.md"
+      },
+      {
+        "chunk_id": "CK-0095",
+        "title": "皮革 物理和机械试验 耐折牢度的测定",
+        "source": "10_行业标准/standards.csv"
+      }
+    ]
+  },
+  "normalizations": [
+    "ADD_REQUIREMENT_REF_TO_P0",
+    "ADD_REQUIREMENT_REF_TO_P0",
+    "BUSINESS_PRIORITY_MICROFIX_B2_P0_P1_P2"
+  ],
+  "safety": {
+    "status": "PASS",
+    "citation_correctness": "PASS",
+    "unsupported_claim_count": 0,
+    "formal_level_contract": "PASS",
+    "evidence_gap_guard": "PASS"
+  },
+  "business_priority_microfix": {
+    "status": "APPLIED",
+    "source": "Y Business Gate",
+    "scope": "recommended_validation priority/display wording only",
+    "llm_rerun": false,
+    "retriever_rerun": false,
+    "frozen_baseline_changed": false,
+    "core_business_claim_changed": false
+  }
+}

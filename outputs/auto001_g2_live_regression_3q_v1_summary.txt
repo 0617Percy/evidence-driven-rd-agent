@@ -1,0 +1,11 @@
+AUTO-001 G2 LIVE SAFETY REGRESSION
+==========================================================================================
+A1 | PASS
+B2 | HOLD
+  FAILED_CHECKS=historical_boundary_present
+C2 | PASS
+==========================================================================================
+PASS_COUNT=2/3
+W_TECHNICAL_GATE=HOLD
+Y_BUSINESS_GATE=PENDING
+G2_FINAL_GATE=HOLD

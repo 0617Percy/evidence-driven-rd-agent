@@ -1,0 +1,17 @@
+{
+  "gate": "G2",
+  "scene": "AUTO-001",
+  "a1": "PASS",
+  "b2": "PASS",
+  "c2": "PASS",
+  "y_business_gate": "PASS",
+  "w_technical_gate": "PASS",
+  "g2_final_gate": "PASS",
+  "b2_business_priority_microfix": {
+    "status": "PASS",
+    "output": "outputs\\g2_live_regression_3q_v1\\B2_live_result_business_priority_v1_1.json",
+    "frozen_baseline_changed": false,
+    "llm_rerun": false,
+    "retriever_rerun": false
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "freeze_version": "G3_Final_Code_Freeze_V1.2",
+  "created_at": "2026-08-30T08:18:45.241245+00:00",
+  "development_freeze": true,
+  "conversation_scene_context": "V0.6.4",
+  "conversation_product_context": "V0.6.5",
+  "runtime": {
+    "corpus": "RC1",
+    "chunks": 170,
+    "retriever": "RC2.2",
+    "qdrant_collection": "rag_chunks_auto001_rc2_2"
+  },
+  "files": [
+    {
+      "relative_path": "app.py",
+      "size": 64138,
+      "sha256": "b24cfb25d6eb461cae76fbfe4807b373b42f43f6d6754d558d21048edbe7ca02"
+    },
+    {
+      "relative_path": "src/live_answer_service_v1.py",
+      "size": 30064,
+      "sha256": "04858c19bd861fbb7e78f48e443293b92743524f81ef58a336814540a2c29308"
+    },
+    {
+      "relative_path": "src/eval_gold_rc2_2.py",
+      "size": 16500,
+      "sha256": "e18454023aab07452f74bd4e3b98c82bb0d4a2ddfdebd17437c10a5ab242cdfe"
+    },
+    {
+      "relative_path": "src/runtime_llm_config_v1_1.py",
+      "size": 4762,
+      "sha256": "c0fa45ad23e543f5b7e8ff55d54ec974cb7e9e64e1c1605d6cb39f328fa09098"
+    },
+    {
+      "relative_path": "src/context_scope_guard_v0_6_1.py",
+      "size": 12370,
+      "sha256": "92119c1a1c90147fb269374eb9cf9d5819c2333c15147b208bdc1732d437d413"
+    },
+    {
+      "relative_path": "src/context_entity_resolver_v0_6.py",
+      "size": 5534,
+      "sha256": "a1a70a6d7e8aa471e27a5fa72b37bfc01a41013d833d45e1323902f44787da6c"
+    },
+    {
+      "relative_path": "src/product_role_guard_v0_6_2.py",
+      "size": 5937,
+      "sha256": "0dad86855400c712598419bebaec052afa4be2496d15dc9b87d43c57135b1984"
+    },
+    {
+      "relative_path": "src/validation_policy_guard_v0_6_3.py",
+      "size": 7679,
+      "sha256": "417b5add2c3d0fe06c24dc1dbddd553ebdaef3c5a377ea950b477b2d85952975"
+    },
+    {
+      "relative_path": "src/conversation_subject_resolver_v0_6_5.py",
+      "size": 6526,
+      "sha256": "bf6a43aa025d78cf143bbecc88f7af7dc4f973727f39a801ed098de93d8d0a7a"
+    },
+    {
+      "relative_path": "src/knowledge_curator_v0_2.py",
+      "size": 25105,
+      "sha256": "f75277c397e31d361409edf72b6c4ec10e3ffbd48bfecb1968bba1172e4f1727"
+    },
+    {
+      "relative_path": "src/knowledge_review_v0_3.py",
+      "size": 7512,
+      "sha256": "0492708bd7d471a3ba9c098e01b6436ac093ba7ceadc84e74164ca4e862e2589"
+    },
+    {
+      "relative_path": "src/knowledge_writeback_v0_4.py",
+      "size": 15857,
+      "sha256": "fad4c7cf9e964c6e1a0b773d82ce5e56f5a5f271e6e655778be493f691ee3898"
+    },
+    {
+      "relative_path": "src/knowledge_history_v0_5.py",
+      "size": 11251,
+      "sha256": "f6d4d8c187d6a8cb2d1e76c825f3f0b36a8b65d6085a8e1bdb7218ed471676fd"
+    },
+    {
+      "relative_path": "src/knowledge_correction_v0_7.py",
+      "size": 28293,
+      "sha256": "f12b8334e49291c592f7e4f1967c42a4264532521b8881f521b19f92659b34a9"
+    },
+    {
+      "relative_path": "src/ui_display_utils_v1.py",
+      "size": 4301,
+      "sha256": "66dcba440a1c59ee2783d80f6d56e32d3865f0621206231e08a7894aed12b88a"
+    },
+    {
+      "relative_path": "tests/test_conversation_scene_scope_v0_6_4.py",
+      "size": 13447,
+      "sha256": "d192e67ce4722cdaaedcf8e58a90b1d9ebe80a9d2233070ad226c9914d455a2e"
+    },
+    {
+      "relative_path": "tests/test_conversation_subject_v0_6_5.py",
+      "size": 9345,
+      "sha256": "3fcac3433685b9587311731c6f2f9cdcccf6f617ffd624e60fa30025d496a852"
+    },
+    {
+      "relative_path": "data/derived/rag_chunks_auto001_rc1.jsonl",
+      "size": 87217,
+      "sha256": "b9bc3297125e6b746ef54d66e81f9e792470d95d1336961226acb0147b652f74"
+    },
+    {
+      "relative_path": "outputs/qdrant_v1_2/collection/rag_chunks_auto001_rc2_2/storage.sqlite",
+      "size": 974848,
+      "sha256": "e1c3bbe81934afd682d4d6eae1cca41a5dd74b90f854dd9ac7958458ead30094"
+    },
+    {
+      "relative_path": "outputs/auto001_main_demo_structured_output_A1_v1_3_1.json",
+      "size": 3954,
+      "sha256": "d0236dc69ff4da425171d510ef4d03ef533353c9ad74d1eb80d71c0fbc0698b4"
+    },
+    {
+      "relative_path": "outputs/knowledge_feedback/knowledge_supersession_relations.jsonl",
+      "size": 1170,
+      "sha256": "dee9e815c1d190398e6e7ea781fabfcd0c86ef70839b8d74df17d7ec7b818386"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "requirement": {
+    "text": "-30℃耐折≥5万次",
+    "source_refs": ["CK-AUTO001-REQ-RC-001"]
+  },
+  "risk_summary": "当前-30℃≥5万次的耐折要求缺乏直接验证证据。历史案例显示HD-S303在沙发革-10℃弯折开裂，根因为PPG体系低温韧性不足，纠正措施为换PTMEG体系，但该案例应用场景为沙发革且温度仅-10℃，与当前汽车内饰革-30℃条件存在显著差异，不能直接外推。技术文献虽支持PTMEG提升低温耐折性能，但不足以证明当前产品在-30℃下达标，存在验证不足导致交付风险。",
+  "historical_evidence": [
+    {
+      "claim": "HD-S303在沙发革低温(-10℃)弯折开裂，根因为PPG体系玻璃化温度偏高，纠正措施为换PTMEG体系，并增加-20℃耐折出厂抽检。",
+      "chunk_id": "CK-0062",
+      "evidence_level": "E2",
+      "historical_condition": "沙发革，-10℃弯折"
+    }
+  ],
+  "technical_evidence": [
+    {
+      "claim": "PTMEG体系玻璃化温度更低，-20℃耐折次数较PPG体系提高约40%。",
+      "chunk_id": "CK-0123",
+      "evidence_level": "E3"
+    },
+    {
+      "claim": "QB/T 2714-2018规定了皮革耐折牢度的测定方法，适用于常温/低温耐折评价。",
+      "chunk_id": "CK-0095",
+      "evidence_level": "E3"
+    }
+  ],
+  "evidence_level": [
+    {
+      "chunk_id": "CK-AUTO001-REQ-RC-001",
+      "level": "E1_ANCHOR"
+    },
+    {
+      "chunk_id": "CK-0062",
+      "level": "E2"
+    },
+    {
+      "chunk_id": "CK-0123",
+      "level": "E3"
+    },
+    {
+      "chunk_id": "CK-0095",
+      "level": "E3"
+    }
+  ],
+  "condition_gap": [
+    {
+      "dimension": "应用场景",
+      "historical": "沙发革",
+      "current": "汽车内饰革（仪表板包覆革）",
+      "source_refs": ["CK-0062", "CK-AUTO001-REQ-RC-001"]
+    },
+    {
+      "dimension": "测试温度",
+      "historical": "-10℃",
+      "current": "-30℃",
+      "source_refs": ["CK-0062", "CK-AUTO001-REQ-RC-001"]
+    },
+    {
+      "dimension": "耐折要求",
+      "historical": "未明确次数，仅显示低温弯折开裂",
+      "current": "≥5万次",
+      "source_refs": ["CK-0062", "CK-AUTO001-REQ-RC-001"]
+    }
+  ],
+  "evidence_gap": {
+    "statement": "基于当前已审阅资料范围，未发现/未明确说明 HD-S303 针对当前汽车内饰革客户“-30℃耐折≥5万次”的直接专项验证结果。",
+    "source_refs": ["CK-AUTO001-REQ-RC-001", "CK-0157"]
+  },
+  "recommended_validation": [
+    {
+      "priority": "P0",
+      "action": "优先开展HD-S303针对当前汽车内饰革应用条件的-30℃专项耐折验证。",
+      "reason": "当前需求锚点为-30℃≥5万次，但缺乏直接验证证据；历史案例仅在-10℃沙发革上失败并通过换PTMEG体系解决，技术文献也仅支撑PTMEG在-20℃的改善，均无法直接证明当前产品在-30℃汽车内饰革条件下达标。因此必须专项验证以明确风险。",
+      "source_refs": ["CK-AUTO001-REQ-RC-001", "CK-0062", "CK-0123"]
+    }
+  ],
+  "sources": [
+    {
+      "chunk_id": "CK-AUTO001-REQ-RC-001",
+      "title": "客户需求说明书(样例)：汽车内饰革水性化｜完整需求与对接上下文",
+      "source": "03_客户需求/需求说明书样例_汽车革客户.md"
+    },
+    {
+      "chunk_id": "CK-0062",
+      "title": "CA-2024-062 沙发革低温(-10℃)弯折开裂",
+      "source": "08_问题案例/cases.csv"
+    },
+    {
+      "chunk_id": "CK-0123",
+      "title": "PTMEG与PPG软段对聚氨酯低温性能影响的对比",
+      "source": "11_公开技术资料/literature.csv"
+    },
+    {
+      "chunk_id": "CK-0095",
+      "title": "皮革 物理和机械试验 耐折牢度的测定",
+      "source": "10_行业标准/standards.csv"
+    },
+    {
+      "chunk_id": "CK-0157",
+      "title": "结论摘要",
+      "source": "02_研发项目/阶段总结_水性汽车革中试.md"
+    }
+  ]
+}

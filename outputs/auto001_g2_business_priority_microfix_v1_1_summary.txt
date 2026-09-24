@@ -1,0 +1,31 @@
+AUTO-001 B2 BUSINESS PRIORITY MICRO-FIX V1.1
+========================================================================================
+
+B2 FINAL RECOMMENDED PRIORITY:
+
+P0 | 对当前拟供货HD-S303 / 当前汽车内饰革应用条件开展-30℃专项耐折验证，确认是否达到≥5万次。
+P1 | 确认当前HD-S303软段体系是否仍为PPG，或是否已采用PTMEG/PCDL等体系。
+P2 | 如研发判断有必要，可将-20℃耐折作为中间参考，但不能作为当前-30℃要求的直接证明。
+
+VALIDATION:
+three_actions_present=PASS
+priority_order_p0_p1_p2=PASS
+p0_direct_minus30_validation=PASS
+p1_soft_segment_confirmation=PASS
+p1_not_replace_direct_validation=PASS
+p1_risk_wording_softened=PASS
+p2_minus20_reference_only=PASS
+all_action_refs_from_retriever=PASS
+prior_safety_still_pass=PASS
+
+FROZEN_BASELINE_CHANGED=NO
+LLM_RERUN=NO
+RETRIEVER_RERUN=NO
+CORE_BUSINESS_CLAIM_CHANGED=NO
+B2_BUSINESS_GATE=PASS
+A1=PASS
+B2=PASS
+C2=PASS
+Y_BUSINESS_GATE=PASS
+W_TECHNICAL_GATE=PASS
+G2_FINAL_GATE=PASS

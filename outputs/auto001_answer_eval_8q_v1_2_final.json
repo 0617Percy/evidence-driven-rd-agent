@@ -1,0 +1,186 @@
+{
+  "eval_spec": "AUTO-001 EvalSet V1.0",
+  "retriever": "RC2.2 FROZEN",
+  "answer_source": "DeepSeek V1.1 raw outputs",
+  "final_validator": "V1.2 offline semantic validator",
+  "results": [
+    {
+      "eval_id": "A1",
+      "status": "PASS",
+      "validation": {
+        "evidence_boundary": "PASS",
+        "condition_gap": "PASS",
+        "evidence_gap": "PASS",
+        "unsupported_claim_count": 0,
+        "citation_correctness": "PASS",
+        "claim_refs": [
+          "CK-0062",
+          "CK-0095",
+          "CK-0123",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      "normalizations": [],
+      "error": null,
+      "structured_output": "outputs\\answer_eval_8q_v1_2_final\\A1_structured_output.json"
+    },
+    {
+      "eval_id": "A2",
+      "status": "PASS",
+      "validation": {
+        "evidence_boundary": "PASS",
+        "condition_gap": "PASS",
+        "evidence_gap": "PASS",
+        "unsupported_claim_count": 0,
+        "citation_correctness": "PASS",
+        "claim_refs": [
+          "CK-0030",
+          "CK-0062",
+          "CK-0095",
+          "CK-0123",
+          "CK-0164",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      "normalizations": [
+        "FILL_EMPTY_EVIDENCE_GAP_SOURCE_REFS"
+      ],
+      "error": null,
+      "structured_output": "outputs\\answer_eval_8q_v1_2_final\\A2_structured_output.json"
+    },
+    {
+      "eval_id": "A3",
+      "status": "PASS",
+      "validation": {
+        "evidence_boundary": "PASS",
+        "condition_gap": "PASS",
+        "evidence_gap": "PASS",
+        "unsupported_claim_count": 0,
+        "citation_correctness": "PASS",
+        "claim_refs": [
+          "CK-0062",
+          "CK-0095",
+          "CK-0123",
+          "CK-0157",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      "normalizations": [],
+      "error": null,
+      "structured_output": "outputs\\answer_eval_8q_v1_2_final\\A3_structured_output.json"
+    },
+    {
+      "eval_id": "B1",
+      "status": "PASS",
+      "validation": {
+        "evidence_boundary": "PASS",
+        "condition_gap": "PASS",
+        "evidence_gap": "PASS",
+        "unsupported_claim_count": 0,
+        "citation_correctness": "PASS",
+        "claim_refs": [
+          "CK-0062",
+          "CK-0123",
+          "CK-0157",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      "normalizations": [],
+      "error": null,
+      "structured_output": "outputs\\answer_eval_8q_v1_2_final\\B1_structured_output.json"
+    },
+    {
+      "eval_id": "B2",
+      "status": "PASS",
+      "validation": {
+        "evidence_boundary": "PASS",
+        "condition_gap": "PASS",
+        "evidence_gap": "PASS",
+        "unsupported_claim_count": 0,
+        "citation_correctness": "PASS",
+        "claim_refs": [
+          "CK-0062",
+          "CK-0095",
+          "CK-0123",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      "normalizations": [],
+      "error": null,
+      "structured_output": "outputs\\answer_eval_8q_v1_2_final\\B2_structured_output.json"
+    },
+    {
+      "eval_id": "B3",
+      "status": "PASS",
+      "validation": {
+        "evidence_boundary": "PASS",
+        "condition_gap": "PASS",
+        "evidence_gap": "PASS",
+        "unsupported_claim_count": 0,
+        "citation_correctness": "PASS",
+        "claim_refs": [
+          "CK-0062",
+          "CK-0123",
+          "CK-0154",
+          "CK-0164",
+          "CK-0169",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      "normalizations": [],
+      "error": null,
+      "structured_output": "outputs\\answer_eval_8q_v1_2_final\\B3_structured_output.json"
+    },
+    {
+      "eval_id": "C1",
+      "status": "PASS",
+      "validation": {
+        "evidence_boundary": "PASS",
+        "condition_gap": "N/A",
+        "evidence_gap": "PASS",
+        "unsupported_claim_count": 0,
+        "citation_correctness": "PASS",
+        "claim_refs": [
+          "CK-0062",
+          "CK-0095",
+          "CK-0123",
+          "CK-0154",
+          "CK-0157",
+          "CK-0169",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      "normalizations": [],
+      "error": null,
+      "structured_output": "outputs\\answer_eval_8q_v1_2_final\\C1_structured_output.json"
+    },
+    {
+      "eval_id": "C2",
+      "status": "PASS",
+      "validation": {
+        "evidence_boundary": "PASS",
+        "condition_gap": "PASS",
+        "evidence_gap": "PASS",
+        "unsupported_claim_count": 0,
+        "citation_correctness": "PASS",
+        "claim_refs": [
+          "CK-0062",
+          "CK-0095",
+          "CK-0123",
+          "CK-0164",
+          "CK-0169",
+          "CK-AUTO001-REQ-RC-001"
+        ]
+      },
+      "normalizations": [],
+      "error": null,
+      "structured_output": "outputs\\answer_eval_8q_v1_2_final\\C2_structured_output.json"
+    }
+  ],
+  "summary": {
+    "pass_count": 8,
+    "total": 8,
+    "unsupported_claim_total": 0,
+    "answer_safety_gate": "PASS"
+  }
+}

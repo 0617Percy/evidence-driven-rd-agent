@@ -1,0 +1,132 @@
+{
+  "audit_id": "AUTO001_SOURCE_COVERAGE_V1.0",
+  "audit_type": "READ_ONLY_SOURCE_LINEAGE_AUDIT",
+  "do_not_ingest": true,
+  "generated_at": "2026-08-30",
+  "input_integrity": {
+    "y_v2_sync_zip": {
+      "found": false,
+      "searched_paths": [
+        "docs/handoff/Y_to_W/AUTO-001/AUTO001_KB_Sync_20260830_V2.zip",
+        "Downloads/AUTO001_KB_Sync_20260830_V2.zip"
+      ],
+      "broad_search": "NOT_FOUND",
+      "note": "Y V2 sync package not yet delivered to W; audit performed against enterprise original Truth Source present on W"
+    },
+    "rc1": {
+      "path": "data/derived/rag_chunks_auto001_rc1.jsonl",
+      "chunk_count": 170,
+      "sha256": "b9bc3297125e6b746ef54d66e81f9e792470d95d1336961226acb0147b652f74",
+      "matches_day1_manifest": true,
+      "rc1_freeze_drift": "PASS"
+    },
+    "enterprise_original_rag_chunks": {
+      "path": "Downloads/企业B_材料研发_整理版/企业B_材料研发/模拟数据集_v1.0/12_AI训练语料/rag_chunks.jsonl",
+      "chunk_count": 169
+    }
+  },
+  "lineage_169_to_170": {
+    "original_chunks": 169,
+    "rc1_chunks": 170,
+    "directly_preserved": 169,
+    "modified_existing": 0,
+    "removed": 0,
+    "new": 1,
+    "new_chunk_ids": ["CK-AUTO001-REQ-RC-001"],
+    "only_req_rechunk_processing": true,
+    "special_checks": {
+      "CK-0168": {"in_original": true, "in_rc1": true, "preserved": true},
+      "CK-0169": {"in_original": true, "in_rc1": true, "preserved": true},
+      "CK-AUTO001-REQ-RC-001": {"in_original": false, "in_rc1": true, "new": true}
+    }
+  },
+  "req_rechunk_lineage": {
+    "source": "03_客户需求/需求说明书样例_汽车革客户.md",
+    "new_chunk_id": "CK-AUTO001-REQ-RC-001",
+    "text_from_original_source": true,
+    "new_facts_introduced": false,
+    "relationship": "CK-0168(intro) + CK-0169(性能要求) are enterprise partial covers; CK-AUTO001-REQ-RC-001 is the FULL source doc (adds 对接记录 section not covered by CK-0168/CK-0169)",
+    "previous_chunks_preserved": ["CK-0168", "CK-0169"],
+    "only_processing": true,
+    "other_text_rewrite": false
+  },
+  "rc1_source_coverage_12_class": {
+    "01_产品主数据": 0,
+    "02_研发项目": 7,
+    "03_客户需求": 5,
+    "04_实验记录": 0,
+    "05_性能测试数据": 0,
+    "06_批次生产记录": 0,
+    "07_工艺参数": 2,
+    "08_问题案例": 80,
+    "09_成本数据": 0,
+    "10_行业标准": 29,
+    "11_公开技术资料": 44,
+    "12_AI训练语料": 2,
+    "root_模拟数据声明": 1,
+    "total": 170
+  },
+  "csv_analysis": {
+    "products": {
+      "total_rows": 40,
+      "hd_s303_rows": 1,
+      "hd_s303": {
+        "产品编号": "HD-S303",
+        "应用方向": "汽车内饰革",
+        "多元醇体系": "聚碳酸酯二醇(PCDL-2000)",
+        "异氰酸酯类型": "H12MDI",
+        "量产状态": "量产",
+        "上市时间": "2024"
+      },
+      "in_rc1": false,
+      "note": "product master is product CONTEXT, not -30C validation evidence"
+    },
+    "experiments": {
+      "total_rows": 636,
+      "hd_s303_rows": 18,
+      "polyol_systems_seen": ["PBA-2000", "PEA-2000", "PTMEG-2000", "PCDL-2000"],
+      "in_rc1": false
+    },
+    "test_results": {
+      "total_rows": 8196,
+      "hd_s303_rows": 270,
+      "search_minus30": 0,
+      "search_low_temp": 0,
+      "search_flex": 0,
+      "search_5wan": 0,
+      "search_50000": 0,
+      "hd_s303_minus30_lowtemp_rows": 0,
+      "direct_minus30_validation_exists": false
+    },
+    "batches": {
+      "total_rows": 300,
+      "hd_s303_rows": 0,
+      "note": "HD-S303 has no batch production records; cannot prove supply batch consistency"
+    }
+  },
+  "evidence_gap_recheck": {
+    "direct_minus30_5wan_validation_found": false,
+    "auto001_evidence_gap_impact": "NONE",
+    "p0_impact": "NONE"
+  },
+  "qdrant_vs_rc1": {
+    "collections": ["rag_chunks_v1_2", "rag_chunks_auto001_rc1", "rag_chunks_auto001_rc2", "rag_chunks_auto001_rc2_1", "rag_chunks_auto001_rc2_2"],
+    "current_collection": "rag_chunks_auto001_rc2_2",
+    "point_count": 170,
+    "rc1_count": 170,
+    "count_match": true,
+    "id_set_match": true,
+    "missing_ids": [],
+    "extra_ids": [],
+    "payload_keys": ["chunk_id", "doc_type", "source", "tags", "text", "title"],
+    "payload_title_source_text_match": true,
+    "payload_mismatch_count": 0,
+    "stale_collection_rag_chunks_v1_2_points": 169,
+    "qdrant_rc1_consistency": "PASS"
+  },
+  "current_runtime_decision": {
+    "current_runtime_update_required": false,
+    "current_reindex_required": false,
+    "future_snapshot_recommended": true
+  }
+}

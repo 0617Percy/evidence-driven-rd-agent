@@ -1,0 +1,29 @@
+﻿AUTO-001 W RUNTIME BASELINE CLEAN CHECK
+============================================================
+
+Runtime Baseline = PASS
+
+app.py = PASS
+Frozen Demo = PASS
+Live Agent = PASS
+A1 Main Chain = PASS
+
+Day1 Freeze Hash Check = PASS
+Corpus = RC1 / 170 chunks
+Retriever = RC2.2
+candidate_k = 60
+Answer/Safety = V1.2
+Structured Output Contract = V1.3.1
+AUTO-001 Day1 Baseline = FROZEN
+
+Qdrant Runtime = PASS
+LLM Runtime = PASS
+Normalizer Runtime = PASS
+Safety Guard Runtime = PASS
+Streamlit App Start = PASS
+
+Day1 Freeze后代码/配置异常 = NO
+Runtime修复需求 = NO
+
+Decision:
+W侧 Runtime Baseline PASS，可以进入 A1 / B2 / C2 Live Safety Regression。

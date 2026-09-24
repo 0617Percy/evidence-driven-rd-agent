@@ -1,0 +1,109 @@
+{
+  "baseline": "Answer/Safety V1.2 8/8 PASS",
+  "scope": "Structured Output Contract Alignment",
+  "retriever_changed": false,
+  "gold_changed": false,
+  "goldanswer_changed": false,
+  "llm_rerun": false,
+  "business_claim_changed": false,
+  "contract_pass_count": "8/8",
+  "results": [
+    {
+      "eval_id": "A1",
+      "status": "PASS",
+      "claim_text_unchanged": true,
+      "changes": [
+        "ADD_REQUIREMENT_ANCHOR_ROLE",
+        "REMOVE_E1_ANCHOR_FROM_EVIDENCE_LEVEL",
+        "ADD_REQUIREMENT_REF_TO_P0"
+      ],
+      "output": "outputs\\answer_eval_8q_v1_3_1_contract\\A1_structured_output_v1_3_1.json"
+    },
+    {
+      "eval_id": "A2",
+      "status": "PASS",
+      "claim_text_unchanged": true,
+      "changes": [
+        "ADD_REQUIREMENT_ANCHOR_ROLE",
+        "REMOVE_E1_ANCHOR_FROM_EVIDENCE_LEVEL",
+        "BACKGROUND_LEVEL_TO_E2:CK-0030",
+        "BACKGROUND_LEVEL_TO_E3:CK-0164",
+        "BACKGROUND_TO_E2:CK-0030",
+        "BACKGROUND_TO_E3:CK-0164"
+      ],
+      "output": "outputs\\answer_eval_8q_v1_3_1_contract\\A2_structured_output_v1_3_1.json"
+    },
+    {
+      "eval_id": "A3",
+      "status": "PASS",
+      "claim_text_unchanged": true,
+      "changes": [
+        "ADD_REQUIREMENT_ANCHOR_ROLE",
+        "REMOVE_E1_ANCHOR_FROM_EVIDENCE_LEVEL"
+      ],
+      "output": "outputs\\answer_eval_8q_v1_3_1_contract\\A3_structured_output_v1_3_1.json"
+    },
+    {
+      "eval_id": "B1",
+      "status": "PASS",
+      "claim_text_unchanged": true,
+      "changes": [
+        "ADD_REQUIREMENT_ANCHOR_ROLE",
+        "REMOVE_E1_ANCHOR_FROM_EVIDENCE_LEVEL"
+      ],
+      "output": "outputs\\answer_eval_8q_v1_3_1_contract\\B1_structured_output_v1_3_1.json"
+    },
+    {
+      "eval_id": "B2",
+      "status": "PASS",
+      "claim_text_unchanged": true,
+      "changes": [
+        "ADD_REQUIREMENT_ANCHOR_ROLE",
+        "REMOVE_E1_ANCHOR_FROM_EVIDENCE_LEVEL"
+      ],
+      "output": "outputs\\answer_eval_8q_v1_3_1_contract\\B2_structured_output_v1_3_1.json"
+    },
+    {
+      "eval_id": "B3",
+      "status": "PASS",
+      "claim_text_unchanged": true,
+      "changes": [
+        "ADD_REQUIREMENT_ANCHOR_ROLE",
+        "REMOVE_E1_ANCHOR_FROM_EVIDENCE_LEVEL",
+        "REMOVE_BACKGROUND_FROM_LEVEL_TABLE:CK-0169",
+        "REMOVE_BACKGROUND_FROM_LEVEL_TABLE:CK-0154",
+        "BACKGROUND_LEVEL_TO_E3:CK-0164",
+        "BACKGROUND_TO_E3:CK-0164"
+      ],
+      "output": "outputs\\answer_eval_8q_v1_3_1_contract\\B3_structured_output_v1_3_1.json"
+    },
+    {
+      "eval_id": "C1",
+      "status": "PASS",
+      "claim_text_unchanged": true,
+      "changes": [
+        "ADD_REQUIREMENT_ANCHOR_ROLE",
+        "REMOVE_E1_ANCHOR_FROM_EVIDENCE_LEVEL",
+        "REMOVE_BACKGROUND_FROM_LEVEL_TABLE:CK-0154",
+        "REMOVE_BACKGROUND_FROM_LEVEL_TABLE:CK-0169",
+        "REMOVE_BACKGROUND_FROM_LEVEL_TABLE:CK-0157",
+        "BACKGROUND_TO_SUPPORTING_ROLE:CK-0154",
+        "ADD_REQUIREMENT_REF_TO_P0"
+      ],
+      "output": "outputs\\answer_eval_8q_v1_3_1_contract\\C1_structured_output_v1_3_1.json"
+    },
+    {
+      "eval_id": "C2",
+      "status": "PASS",
+      "claim_text_unchanged": true,
+      "changes": [
+        "ADD_REQUIREMENT_ANCHOR_ROLE",
+        "REMOVE_E1_ANCHOR_FROM_EVIDENCE_LEVEL",
+        "REMOVE_BACKGROUND_FROM_LEVEL_TABLE:CK-0169",
+        "BACKGROUND_LEVEL_TO_E3:CK-0164",
+        "BACKGROUND_TO_E3:CK-0164"
+      ],
+      "output": "outputs\\answer_eval_8q_v1_3_1_contract\\C2_structured_output_v1_3_1.json"
+    }
+  ]
+}

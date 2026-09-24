@@ -1,0 +1,17 @@
+{
+  "stable_source_id": "REQ-AUTO-001",
+  "new_chunk_id": "CK-AUTO001-REQ-RC-001",
+  "source": "03_客户需求/需求说明书样例_汽车革客户.md",
+  "source_relative_path": "data/truth_source/模拟数据集_v1.0/03_客户需求/需求说明书样例_汽车革客户.md",
+  "source_range": "全文，第1-21行",
+  "chunk_rule": "源文件篇幅短且全文属于同一当前客户需求/对接上下文，因此按完整文档作为单一语义chunk；未抽取或拼接散落句子。",
+  "fact_checks": {
+    "contains_HD_S303_surface": true,
+    "contains_minus30": true,
+    "contains_50000": true,
+    "contains_auto_scene": true
+  },
+  "original_corpus_size": 169,
+  "derived_corpus_size": 170,
+  "original_source_modified": false
+}

@@ -1,0 +1,112 @@
+{
+  "scope": "AUTO-001 G2 W Technical Gate",
+  "method": "offline rejudge of original real Live outputs",
+  "product_code_changed": false,
+  "retriever_changed": false,
+  "gold_changed": false,
+  "goldanswer_changed": false,
+  "contract_changed": false,
+  "llm_rerun": false,
+  "results": [
+    {
+      "eval_id": "A1",
+      "status": "PASS",
+      "checks": {
+        "safety_status": true,
+        "citation_correctness": true,
+        "unsupported_claim_zero": true,
+        "formal_level_contract": true,
+        "evidence_gap_guard": true,
+        "mandatory_evidence_retrieved": true,
+        "evidence_gap_refs_nonempty": true,
+        "evidence_gap_refs_retrieved": true,
+        "current_minus30_present": true,
+        "historical_condition_present": true,
+        "direct_evidence_gap_present": true
+      },
+      "failed_checks": [],
+      "retrieved_ids": [
+        "CK-AUTO001-REQ-RC-001",
+        "CK-0062",
+        "CK-0169",
+        "CK-0154",
+        "CK-0123",
+        "CK-0095",
+        "CK-0164",
+        "CK-0168"
+      ],
+      "original_live_output": "outputs\\g2_live_regression_3q_v1\\A1_live_result.json",
+      "llm_rerun": false,
+      "retriever_rerun": false
+    },
+    {
+      "eval_id": "B2",
+      "status": "PASS",
+      "checks": {
+        "safety_status": true,
+        "citation_correctness": true,
+        "unsupported_claim_zero": true,
+        "formal_level_contract": true,
+        "evidence_gap_guard": true,
+        "mandatory_evidence_retrieved": true,
+        "evidence_gap_refs_nonempty": true,
+        "evidence_gap_refs_retrieved": true,
+        "no_unnegated_definite_failure": true,
+        "historical_boundary_present": true,
+        "minus30_context_present": true
+      },
+      "failed_checks": [],
+      "retrieved_ids": [
+        "CK-AUTO001-REQ-RC-001",
+        "CK-0062",
+        "CK-0169",
+        "CK-0154",
+        "CK-0123",
+        "CK-0095",
+        "CK-0030",
+        "CK-0164"
+      ],
+      "original_live_output": "outputs\\g2_live_regression_3q_v1\\B2_live_result.json",
+      "llm_rerun": false,
+      "retriever_rerun": false
+    },
+    {
+      "eval_id": "C2",
+      "status": "PASS",
+      "checks": {
+        "safety_status": true,
+        "citation_correctness": true,
+        "unsupported_claim_zero": true,
+        "formal_level_contract": true,
+        "evidence_gap_guard": true,
+        "mandatory_evidence_retrieved": true,
+        "evidence_gap_refs_nonempty": true,
+        "evidence_gap_refs_retrieved": true,
+        "no_unnegated_forced_pass_fail": true,
+        "direct_evidence_gap_present": true,
+        "p0_validation_minus30": true
+      },
+      "failed_checks": [],
+      "retrieved_ids": [
+        "CK-AUTO001-REQ-RC-001",
+        "CK-0062",
+        "CK-0169",
+        "CK-0154",
+        "CK-0123",
+        "CK-0095",
+        "CK-0030",
+        "CK-0164"
+      ],
+      "original_live_output": "outputs\\g2_live_regression_3q_v1\\C2_live_result.json",
+      "llm_rerun": false,
+      "retriever_rerun": false
+    }
+  ],
+  "summary": {
+    "pass_count": 3,
+    "total": 3,
+    "w_technical_gate": "PASS",
+    "y_business_gate": "PENDING",
+    "g2_final_gate": "PENDING_Y"
+  }
+}

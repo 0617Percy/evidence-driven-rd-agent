@@ -1,0 +1,84 @@
+{
+  "eval_version": "AUTO-001-GoldSources-V1.0",
+  "corpus": "rag_chunks_auto001_rc1",
+  "corpus_size": 170,
+  "gold_mapping": {
+    "REQ-AUTO-001": "CK-AUTO001-REQ-RC-001",
+    "CASE-CA-2024-062": "CK-0062",
+    "STD-QBT2714": "CK-0095",
+    "LIT-LIT017": "CK-0123"
+  },
+  "query_results": [
+    {
+      "query_id": "Q1",
+      "mandatory_gold": [
+        "REQ-AUTO-001",
+        "CASE-CA-2024-062"
+      ],
+      "gold_ranks": {
+        "REQ-AUTO-001": 1,
+        "CASE-CA-2024-062": 2
+      },
+      "top3_hit_count": 2,
+      "top3_total": 2,
+      "top3_hit_rate": 1.0,
+      "top5_hit_count": 2,
+      "top5_total": 2,
+      "top5_hit_rate": 1.0,
+      "case_rank": 2,
+      "wrong_evidence_hits": [],
+      "traceability_all_top5": true
+    },
+    {
+      "query_id": "Q2",
+      "mandatory_gold": [
+        "CASE-CA-2024-062",
+        "REQ-AUTO-001",
+        "LIT-LIT017"
+      ],
+      "gold_ranks": {
+        "CASE-CA-2024-062": 2,
+        "REQ-AUTO-001": 1,
+        "LIT-LIT017": 3
+      },
+      "top3_hit_count": 3,
+      "top3_total": 3,
+      "top3_hit_rate": 1.0,
+      "top5_hit_count": 3,
+      "top5_total": 3,
+      "top5_hit_rate": 1.0,
+      "case_rank": 2,
+      "wrong_evidence_hits": [],
+      "traceability_all_top5": true
+    },
+    {
+      "query_id": "Q3",
+      "mandatory_gold": [
+        "REQ-AUTO-001",
+        "CASE-CA-2024-062",
+        "STD-QBT2714"
+      ],
+      "gold_ranks": {
+        "REQ-AUTO-001": 1,
+        "CASE-CA-2024-062": 3,
+        "STD-QBT2714": 2
+      },
+      "top3_hit_count": 3,
+      "top3_total": 3,
+      "top3_hit_rate": 1.0,
+      "top5_hit_count": 3,
+      "top5_total": 3,
+      "top5_hit_rate": 1.0,
+      "case_rank": 3,
+      "wrong_evidence_hits": [],
+      "traceability_all_top5": true
+    }
+  ],
+  "overall": {
+    "mandatory_total": 8,
+    "top3_hits": 8,
+    "top3_hit_rate": 1.0,
+    "top5_hits": 8,
+    "top5_hit_rate": 1.0
+  }
+}

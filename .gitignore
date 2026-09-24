@@ -1,0 +1,67 @@
+# ============================================================
+# Secrets / local environment
+# ============================================================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ============================================================
+# Python
+# ============================================================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# OS / editor junk
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+*_backup*
+*before*
+
+# ============================================================
+# Editor workspace state (never publish personal state)
+# ============================================================
+.obsidian/
+.trash/
+.idea/
+.vscode/
+
+# ============================================================
+# Packaging / staging / temp restore (never publish)
+# ============================================================
+*.zip
+*.7z
+_package_staging/
+outputs/_portable_smoke/
+outputs/_package_staging/
+.extract_tmp/
+
+# ============================================================
+# Local caches
+# ============================================================
+.cache/
+local_cache/
+node_modules/
+dist/
+build/
+
+# ============================================================
+# IMPORTANT: the following are intentionally NOT ignored,
+# because they are part of the reproducible public release:
+#   data/truth_source/          -> read-only truth source (mock data)
+#   data/knowledge_vault/       -> governed derived knowledge
+#   data/derived/              -> RC1 runtime corpus (170 chunks)
+#   outputs/                   -> frozen eval / gate / governance results
+#   docs/                      -> final architecture, audit, roadshow
+# ============================================================
